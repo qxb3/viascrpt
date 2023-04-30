@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	// 1. Apply the dark mode class setting:
 	darkMode: 'class',
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
@@ -10,7 +9,11 @@ export default {
 		)
 	],
 	theme: {
-		extend: {},
+		container: {
+			center: true
+		},
+		extend: {
+		},
 	},
 	plugins: [
 		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
