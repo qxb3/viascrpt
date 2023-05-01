@@ -102,3 +102,7 @@ html, body {
 a {
 	text-decoration: none;
 }
+
+.input {
+	@apply rounded-sm;
+}
