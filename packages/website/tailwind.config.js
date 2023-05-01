@@ -16,7 +16,9 @@ export default {
 		},
 	},
 	plugins: [
-		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
+		require('@tailwindcss/forms'),
+		require('@ublabs/tailwindcss-brand-colors')(['google', 'github']),
+		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')(),
 	]
 }
 
