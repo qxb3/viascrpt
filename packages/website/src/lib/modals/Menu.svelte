@@ -12,12 +12,14 @@
       class="grow"
     >
       {#each links as link}
-        <ListBoxItem class="hover:underline">
-          <span>
-            <li class="fa {link.icon}"></li>
-          </span>
-          {link.title}
-        </ListBoxItem>
+        <a href={link.path} class="link">
+          <ListBoxItem>
+            <span>
+              <li class="fa {link.icon}"></li>
+            </span>
+            <span>{link.title}</span>
+          </ListBoxItem>
+        </a>
       {/each}
     </ListBox>
 
