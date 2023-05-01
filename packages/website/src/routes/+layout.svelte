@@ -13,6 +13,7 @@
     AppShell,
     AppBar,
     Modal,
+    Toast,
     modalStore,
     storeHighlightJs
   } from '@skeletonlabs/skeleton'
@@ -32,7 +33,8 @@
   }
 </script>
 
-<Modal components={modalComponentRegistry}/>
+<Toast position="t" />
+<Modal components={modalComponentRegistry} />
 
 <AppShell>
   <svelte:fragment slot="header">
