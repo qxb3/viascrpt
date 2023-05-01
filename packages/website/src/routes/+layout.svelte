@@ -3,9 +3,21 @@
   import '@skeletonlabs/skeleton/styles/all.css'
   import '../app.css'
 
-  import { AppShell, AppBar, Modal, modalStore } from '@skeletonlabs/skeleton'
-  import { links } from '$lib/vars.js'
   import MenuModal from '../lib/modals/Menu.svelte'
+  import { links } from '$lib/vars.js'
+
+  import hljs from 'highlight.js'
+  import 'highlight.js/styles/github-dark.css'
+
+  import {
+    AppShell,
+    AppBar,
+    Modal,
+    modalStore,
+    storeHighlightJs
+  } from '@skeletonlabs/skeleton'
+
+  storeHighlightJs.set(hljs)
 
   const modalComponentRegistry = {
     modalComponentOne: { ref: MenuModal }
