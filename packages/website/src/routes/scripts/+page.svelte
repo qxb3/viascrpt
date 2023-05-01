@@ -47,7 +47,7 @@
     {#each scripts as script}
       {@const scriptPath = "/scripts/" + script.name.toLowerCase()}
 
-      <a href={scriptPath} class="block relative link p-4 border-[0.1px] border-surface-400 rounded-md">
+      <a href={scriptPath} class="block relative card link p-4">
         <div class="absolute top-0 right-0 p-4">
           <button on:click={() => star(script.id)} class="btn border border-surface-400 rounded-md p-2">
             <i class="{script.starred ? 'fa' : 'fa-regular'} fa-star"></i>
@@ -57,9 +57,9 @@
         <div class="pb-4">
           <div class="flex items-center gap-4">
             <h3 class="font-extrabold">
-              <span class="text-secondary-500">{script.name}</span>
+              <span class="text-primary-500">{script.name}</span>
             </h3>
-            <span class="badge variant-filled-primary">author: {script.author.name}</span>
+            <span class="badge variant-filled-secondary">author: {script.author.name}</span>
           </div>
           <p>{script.description}</p>
         </div>

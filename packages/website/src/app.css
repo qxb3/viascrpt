@@ -95,6 +95,7 @@
 	--color-surface-900: 11 10 14; /* ⬅ #0b0a0e */
 }
 
+
 html, body {
 	@apply h-full overflow-hidden;
 }
@@ -105,4 +106,8 @@ html, body {
 
 .input {
 	@apply rounded-sm;
+}
+
+.card {
+	@apply border-[0.08px] border-surface-400;
 }

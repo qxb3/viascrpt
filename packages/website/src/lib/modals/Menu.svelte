@@ -3,7 +3,7 @@
   import { links } from '$lib/vars.js'
 </script>
 
-<div class="w-[97%] bg-surface-500 p-4 rounded-md border-[0.1px] border-surface-400">
+<div class="w-[97%] card !bg-surface-500 p-4">
   <div class="flex place-content-between">
     <ListBox
       rounded="rouned-none"

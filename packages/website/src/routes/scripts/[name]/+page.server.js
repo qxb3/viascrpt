@@ -5,6 +5,9 @@ let scripts = [
     id: 0,
     name: 'eiv',
     description: 'DevTools in via powered by eruda',
+    author: {
+      name: 'qxb3'
+    },
     meta: {
       stars: 1000,
       comments: 356
@@ -14,6 +17,9 @@ let scripts = [
     id: 1,
     name: 'logger',
     description: 'Node.js logger',
+    author: {
+      name: 'qxb3'
+    },
     meta: {
       stars: 534,
       comments: 86
