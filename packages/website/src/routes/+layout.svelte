@@ -32,8 +32,8 @@
       regionRowMain="container"
     >
       <a href="/" class="!text-xl font-bold">
-        <span class="text-blue-200">Via</span>
-        <span class="text-lime-300">Scrpt</span>
+        <span class="text-secondary-500">Via</span>
+        <span class="text-primary-500">Scrpt</span>
       </a>
 
       <svelte:fragment slot="trail">
