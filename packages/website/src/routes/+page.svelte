@@ -12,11 +12,11 @@
   </div>
 
   <div class="text-center mt-16">
-    <button class="btn btn-lg variant-ringed-primary">
+    <a href="/scripts" class="btn btn-lg variant-ringed-primary">
       <span>Find Scripts</span>
       <span>
         <li class="fa fa-search"></li>
       </span>
-    </button>
+    </a>
   </div>
 </div>
