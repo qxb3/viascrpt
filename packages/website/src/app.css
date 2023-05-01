@@ -100,7 +100,7 @@ html, body {
 }
 
 a {
-	text-decoration: none;
+	@apply !no-underline !text-white;
 }
 
 .input {
