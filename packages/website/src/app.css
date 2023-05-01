@@ -99,7 +99,7 @@ html, body {
 	@apply h-full overflow-hidden;
 }
 
-a {
+.link {
 	@apply !no-underline !text-white;
 }
 

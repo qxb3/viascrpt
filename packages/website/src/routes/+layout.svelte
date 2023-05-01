@@ -45,7 +45,7 @@
           <ul class="flex gap-x-6">
             {#each links as link}
               <li>
-                <a href={link.path}>{link.title}</a>
+                <a href={link.path} class="link">{link.title}</a>
               </li>
             {/each}
           </ul>

@@ -1,6 +1,10 @@
 <script>
 </script>
 
+<svelte:head>
+  <title>ViaScrpt | Find and Share via scripts to others!</title>
+</svelte:head>
+
 <div class="container p-4">
   <div class="text-center mt-16">
     <h1 class="font-bold !text-5xl">
