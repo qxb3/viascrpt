@@ -49,17 +49,17 @@
 	--color-tertiary-700: 41 164 154; /* ⬅ #29a49a */
 	--color-tertiary-800: 33 131 123; /* ⬅ #21837b */
 	--color-tertiary-900: 27 107 100; /* ⬅ #1b6b64 */
-	/* success | #1d8d64 */
-	--color-success-50: 221 238 232; /* ⬅ #ddeee8 */
-	--color-success-100: 210 232 224; /* ⬅ #d2e8e0 */
-	--color-success-200: 199 227 216; /* ⬅ #c7e3d8 */
-	--color-success-300: 165 209 193; /* ⬅ #a5d1c1 */
-	--color-success-400: 97 175 147; /* ⬅ #61af93 */
-	--color-success-500: 29 141 100; /* ⬅ #1d8d64 */
-	--color-success-600: 26 127 90; /* ⬅ #1a7f5a */
-	--color-success-700: 22 106 75; /* ⬅ #166a4b */
-	--color-success-800: 17 85 60; /* ⬅ #11553c */
-	--color-success-900: 14 69 49; /* ⬅ #0e4531 */
+	/* success | #00ff00 */
+	--color-success-50: 217 255 217; /* ⬅ #d9ffd9 */
+	--color-success-100: 204 255 204; /* ⬅ #ccffcc */
+	--color-success-200: 191 255 191; /* ⬅ #bfffbf */
+	--color-success-300: 153 255 153; /* ⬅ #99ff99 */
+	--color-success-400: 77 255 77; /* ⬅ #4dff4d */
+	--color-success-500: 0 255 0; /* ⬅ #00ff00 */
+	--color-success-600: 0 230 0; /* ⬅ #00e600 */
+	--color-success-700: 0 191 0; /* ⬅ #00bf00 */
+	--color-success-800: 0 153 0; /* ⬅ #009900 */
+	--color-success-900: 0 125 0; /* ⬅ #007d00 */
 	/* warning | #f28e1b */
 	--color-warning-50: 253 238 221; /* ⬅ #fdeedd */
 	--color-warning-100: 252 232 209; /* ⬅ #fce8d1 */
@@ -94,7 +94,6 @@
 	--color-surface-800: 13 12 17; /* ⬅ #0d0c11 */
 	--color-surface-900: 11 10 14; /* ⬅ #0b0a0e */
 }
-
 
 html, body {
 	@apply h-full overflow-hidden;

@@ -5,6 +5,11 @@ let scripts = [
     id: 0,
     name: 'eiv',
     description: 'DevTools in via powered by eruda',
+    code: `
+function hi() {
+  console.log('fuck')
+}
+    `,
     author: {
       name: 'qxb3'
     },
@@ -17,6 +22,11 @@ let scripts = [
     id: 1,
     name: 'logger',
     description: 'Node.js logger',
+    code: `
+function hi() {
+  console.log('fuck')
+}
+    `,
     author: {
       name: 'qxb3'
     },

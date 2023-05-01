@@ -3,10 +3,11 @@
 
   export let language
   export let code
+  export let hideCopyBtn = false
 </script>
 
 <CodeBlock
   {language}
   {code}
-  button="btn btn-sm !text-white bg-surface-400"
+  button={hideCopyBtn ?  "hidden" : "btn btn-sm !text-white bg-surface-400"}
 ></CodeBlock>
