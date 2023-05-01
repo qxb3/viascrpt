@@ -29,6 +29,6 @@
   <div class="my-3 h-[0.1px] bg-surface-400"></div>
 
   <div class="mt-7">
-    <button class="btn variant-filled-primary">Sign Up</button>
+    <a href="/login" class="btn variant-filled-primary">Sign In</a>
   </div>
 </div>
