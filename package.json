@@ -1,6 +1,9 @@
 {
-  "name": "via-scripts",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "name": "viascrpts",
+  "description": "Find and Share via browser scripts!",
+  "license": "GPL-3.0 license",
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/**"
+  ]
 }
